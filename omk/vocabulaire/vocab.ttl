@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix jo: <https://jo.univ-paris8.fr/jo#> .
+
+<https://jo.univ-paris8.fr/jo#> a owl:Ontology ;
+    dcterms:title "Résultats des sportifs aux jeux Olympiques".
+
+
+jo:sportif a rdfs:Class ;
+    rdfs:label "sportif" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jo:epreuve a rdfs:Class ;
+    rdfs:label "epreuve" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" . 
+
+jo:resultat a rdfs:Class ;
+    rdfs:label "resultat" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+jo:nom a rdf:Property ;
+    rdfs:label "nom" ;
+    rdfs:domain jo:sportif ;
+    vs:term_status "experimental" .
+
+jo:prenom a rdf:Property ;
+    rdfs:label "prenom" ;
+    rdfs:domain jo:sportif ;
+    vs:term_status "experimental" .
+
+jo:genre a rdf:Property ;
+    rdfs:label "genre" ;
+    rdfs:domain jo:sportif ;
+    vs:term_status "experimental" .    
+
+jo:pays a rdf:Property ;
+    rdfs:label "pays" ;
+    rdfs:domain jo:sportif ;
+    vs:term_status "experimental" .        
+
+jo:dateDeNaissance a rdf:Property ;
+    rdfs:label "dateDeNaissance" ;
+    rdfs:domain jo:sportif ;
+    vs:term_status "experimental" .            
+
+
+jo:title a rdf:Property ;
+    rdfs:label "title" ;
+    rdfs:domain jo:epreuve ;
+    vs:term_status "experimental" .
+
+jo:description a rdf:Property ;
+    rdfs:label "description" ;
+    rdfs:domain jo:epreuve ;
+    vs:term_status "experimental" .    
+
+
+jo:classement a rdf:Property ;
+    rdfs:label "classement" ;
+    rdfs:domain jo:resultat ;
+    vs:term_status "experimental" .    
+
+jo:dateRes a rdf:Property ;
+    rdfs:label "dateRes" ;
+    rdfs:domain jo:resultat ;
+    vs:term_status "experimental" .        
+           
+   
