@@ -1,0 +1,59 @@
+{
+    "o:label": "Resultat",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/jo.univ-paris8.fr\/jo#",
+            "vocabulary_label": "R\u00e9sultats des sportifs aux jeux Olympiques",
+            "local_name": "pourEpreuve",
+            "label": "pourEpreuve"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/jo.univ-paris8.fr\/jo#",
+            "vocabulary_label": "R\u00e9sultats des sportifs aux jeux Olympiques",
+            "local_name": "pourLeSportif",
+            "label": "pourLeSportif"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/jo.univ-paris8.fr\/jo#",
+            "vocabulary_label": "R\u00e9sultats des sportifs aux jeux Olympiques",
+            "local_name": "dateRes",
+            "label": "dateRes"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/jo.univ-paris8.fr\/jo#",
+            "vocabulary_label": "R\u00e9sultats des sportifs aux jeux Olympiques",
+            "local_name": "classement",
+            "label": "classement"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/jo.univ-paris8.fr\/jo#",
+        "vocabulary_label": "R\u00e9sultats des sportifs aux jeux Olympiques",
+        "local_name": "resultat",
+        "label": "resultat"
+    }
+}

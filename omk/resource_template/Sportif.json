@@ -1,0 +1,71 @@
+{
+    "o:label": "Sportif",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/jo.univ-paris8.fr\/jo#",
+            "vocabulary_label": "R\u00e9sultats des sportifs aux jeux Olympiques",
+            "local_name": "nom",
+            "label": "nom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/jo.univ-paris8.fr\/jo#",
+            "vocabulary_label": "R\u00e9sultats des sportifs aux jeux Olympiques",
+            "local_name": "prenom",
+            "label": "prenom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/jo.univ-paris8.fr\/jo#",
+            "vocabulary_label": "R\u00e9sultats des sportifs aux jeux Olympiques",
+            "local_name": "genre",
+            "label": "genre"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/jo.univ-paris8.fr\/jo#",
+            "vocabulary_label": "R\u00e9sultats des sportifs aux jeux Olympiques",
+            "local_name": "dateDeNaissance",
+            "label": "dateDeNaissance"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/jo.univ-paris8.fr\/jo#",
+            "vocabulary_label": "R\u00e9sultats des sportifs aux jeux Olympiques",
+            "local_name": "pays",
+            "label": "pays"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/jo.univ-paris8.fr\/jo#",
+        "vocabulary_label": "R\u00e9sultats des sportifs aux jeux Olympiques",
+        "local_name": "sportif",
+        "label": "sportif"
+    }
+}
