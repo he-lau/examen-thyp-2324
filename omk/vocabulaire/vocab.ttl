@@ -71,6 +71,17 @@ jo:classement a rdf:Property ;
 jo:dateRes a rdf:Property ;
     rdfs:label "dateRes" ;
     rdfs:domain jo:resultat ;
-    vs:term_status "experimental" .        
+    vs:term_status "experimental" .       
+    
+jo:pourLeSportif a rdf:Property ;
+    rdfs:label "pourLeSportif" ;
+    rdfs:domain jo:resultat ;
+    vs:term_status "experimental" .            
            
+
+jo:pourEpreuve a rdf:Property ;
+    rdfs:label "pourEpreuve" ;
+    rdfs:domain jo:resultat ;
+    vs:term_status "experimental" .            
+                      
    
